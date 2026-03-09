@@ -24,5 +24,9 @@ MM-LEAK Hierarchical Pipeline
 
 
 # Requirements
+```bash
 conda env create -f rl_env.yml
 conda activate rl_env
+```
+
+
