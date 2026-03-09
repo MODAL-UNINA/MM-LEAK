@@ -29,4 +29,11 @@ conda env create -f rl_env.yml
 conda activate rl_env
 ```
 
+The default CONFIG is `configs.yaml`, it specifies which language models are used by each agent in pipeline.
 
+```yaml
+  target_model: "Qwen/Qwen2-VL-7B-Instruct"  
+  attacker_model: "Qwen/Qwen3-0.6B"
+  embedder_model: "sentence-transformers/all-MiniLM-L6-v2"     
+  diffusion_model: "stabilityai/stable-diffusion-xl-base-1.0"     
+```
