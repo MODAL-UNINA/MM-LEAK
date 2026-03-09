@@ -38,17 +38,17 @@ The default CONFIG is `configs.yaml`, it specifies which language models are use
   embedder_model: "sentence-transformers/all-MiniLM-L6-v2"     
   diffusion_model: "stabilityai/stable-diffusion-xl-base-1.0"     
 ```
-## Usage
+# Usage
 The repository is structured into two independent experimental phases: Phase I and Phase II. The two phases are fully decoupled and can be executed separately.
 Each phase is contained in its own directory and provides a dedicated main script to run the corresponding experiments. As a result, users can launch each phase independently without requiring the execution of the other.
 
-# Phase 1
+## Phase 1
 This phase evaluates the ability of reinforcement-learning-based interaction policies to induce privacy-sensitive outputs from aligned models.
 ```bash
 cd Phase_1
 python main_phase_1.py
 ```
-# Phase 2
+## Phase 2
 This phase evaluates the robustness of output filtering mechanisms under controlled memorization using synthetic canaries.
 To run Phase II:
 ```bash
