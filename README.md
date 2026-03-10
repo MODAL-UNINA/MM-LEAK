@@ -11,21 +11,8 @@ Our results show that reinforcement-optimized interaction policies substantially
 
 <img width="1344" height="1023" alt="RL_agent" src="https://github.com/user-attachments/assets/83a1af9e-61a8-4e07-9e33-ab60fcd251e9" />
 
-```
-MM-LEAK Hierarchical Pipeline
+<img width="688" height="279" alt="structure" src="https://github.com/user-attachments/assets/f3f40de6-5157-407d-b4e2-e1ba6ee7cfdc" />
 
-├── Agent 1 (Strategy Coordinator – outer loop)
-│   ├── Generates K diverse attack strategies
-│   ├── Selects interaction modality (text-only / visual / cross-modal)
-│   └── Evolutionary feedback via UCB1-based policy
-│
-└── Agent 2 (Tactical Execution – inner loop)
-    ├── PPO-based policy for prompt generation
-    ├── Target interaction with filtered MLLM
-    ├── Reward computation (similarity-based)
-    └── Policy update via PPO gradient step
-```
-    
 
 
 ## Requirements
